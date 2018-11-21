@@ -14,6 +14,16 @@ const codes = [
 function init() {
   // your code here
   
+  document.addEventListener('keydown', (event) => {
+  const keyName = event.key;
+  let index =0;
   
+  if(keyName ===codes[index]){
+    index++;
+  }
+    if(index === codes.length){
+      alert()
+    }
+});
 }
 
